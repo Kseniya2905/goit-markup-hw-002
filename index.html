@@ -9,70 +9,72 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
       <nav>
         <a class="link logo" href="#"
-          >Web
-          <span class="logo dark">Studio</span>
+          >Web<span class="logo dark">Studio</span>
         </a>
         <ul class="list">
           <li>
-            <a class="link" href="#">Студия</a>
+            <a class="nav-link current link" href="#">Студия</a>
           </li>
           <li>
-            <a class="link" href="./portfolio.html">Портфолио</a>
+            <a class="nav-link link" href="./portfolio.html">Портфолио</a>
           </li>
           <li>
-            <a class="link" href="#">Контакты</a>
+            <a class="nav-link link" href="#">Контакты</a>
           </li>
         </ul>
       </nav>
       <ul class="list">
         <li>
-          <a class="link item" href="mailto:info@devstudio.com"
+          <a class="contact-link link" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a class="link item" href="tel:+380961111111">+38096 111 11 11</a>
+          <a class="contact-link link" href="tel:+380961111111"
+            >+38096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
     <main>
       <section class="hero">
-        <h1>Эффективные решения для вашего бизнесса</h1>
+        <h1 class="hero-title">Эффективные решения для вашего бизнесса</h1>
         <button class="button" type="button">Заказать услугу</button>
       </section>
       <section>
         <ul class="list">
           <li>
-            <h3 class="colection">Внимание к деталям</h3>
-            <p class="item">
+            <h2 class="collection-title">Внимание к деталям</h2>
+            <p class="collection-deskript">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <h3 class="colection">Пунктуальность</h3>
-            <p class="item">
+            <h2 class="collection-title">Пунктуальность</h2>
+            <p class="collection-deskript">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <h3 class="colection">Планирование</h3>
-            <p class="item">
+            <h2 class="collection-title">Планирование</h2>
+            <p class="collection-deskript">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <h3 class="colection">Современные технологии</h3>
-            <p class="item">
+            <h2 class="collection-title">Современные технологии</h2>
+            <p class="collection-deskript">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -80,9 +82,9 @@
         </ul>
       </section>
       <section>
-        <h2 class="title topic">Чем мы занимаемся</h2>
-        <ul>
-          <li class="list">
+        <h2 class="topic">Чем мы занимаемся</h2>
+        <ul class="list">
+          <li>
             <img
               src="./img/develop.jpg"
               width="370"
@@ -90,7 +92,7 @@
               alt="разработка сайтов"
             />
           </li>
-          <li class="list">
+          <li>
             <img
               src="./img/app.jpg"
               width="370"
@@ -98,7 +100,7 @@
               alt="разработка приложений"
             />
           </li>
-          <li class="list">
+          <li>
             <img
               src="./img/grafic.jpg"
               width="370"
@@ -109,7 +111,7 @@
         </ul>
       </section>
       <section class="tim">
-        <h2 class="title topic">Наша команда</h2>
+        <h2 class="topic">Наша команда</h2>
         <ul class="list">
           <li>
             <img
@@ -121,12 +123,12 @@
             <h3 class="title">Игорь Демьяненко</h3>
             <p class="text">Product Designer</p>
           </li>
-          <li class="list">
+          <li>
             <img src="./img/repina.jpg" width="270" height="260" alt="Репина" />
             <h3 class="title">Ольга Репина</h3>
             <p class="text">Frontend Developer</p>
           </li>
-          <li class="list">
+          <li>
             <img
               src="./img/tarasov.jpg"
               width="270"
@@ -136,7 +138,7 @@
             <h3 class="title">Николай Тарасов</h3>
             <p class="text">Marketing</p>
           </li>
-          <li class="list">
+          <li>
             <img
               src="./img/ermakov.jpg"
               width="270"
@@ -151,14 +153,13 @@
     </main>
     <footer class="footer">
       <a class="link logo" href="#"
-        >Web
-        <span class="logo light">Studio</span>
+        >Web<span class="logo light">Studio</span>
       </a>
-      <address>
+      <address class="address">
         <ul class="list">
           <li>
             <a
-              class="link address"
+              class="address-link accent link"
               href="https://goo.gl/maps/NY9jB76HG3i3NCJy5"
               rel="noreferrer noopener nofollow"
               target="_blank"
@@ -166,12 +167,12 @@
             </a>
           </li>
           <li>
-            <a class="link address" href="mailto:info@example.com"
+            <a class="address-link link" href="mailto:info@example.com"
               >info@example.com
             </a>
           </li>
           <li>
-            <a class="link address" href="tel:+380991111111"
+            <a class="address-link link" href="tel:+380991111111"
               >+38096 111 11 11
             </a>
           </li>
